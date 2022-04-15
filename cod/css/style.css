@@ -1,0 +1,310 @@
+*{
+        font-family: 'Source Sans Pro', sans-serif;
+}
+html{
+    height: 100%
+
+}
+body{
+
+       flex-direction: column;
+       height: 100%;
+
+       background-color: #4A555A;
+       margin: 0;
+
+
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(9, 20, 24, 0.5);
+    backdrop-filter: blur(90px);
+justify-content: space-around;
+color: white;
+
+}
+.header_left{
+    display: flex;
+    padding-left: 90px;
+
+
+}
+.app{
+    padding-right: 20px;
+
+}
+.bank{
+    padding-right: 20px;
+}
+.header_money{
+    padding-right: 20px;
+}
+.header_ava{
+padding-left: 40px;
+}
+.header_glasses{
+padding-right: 20px;
+}
+.sell{
+
+align-items:center;
+display:flex;
+}
+
+.sell_txt{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+}
+.farther{
+    text-align: center;
+}
+.center_play_img{
+    display: flex;
+}
+.center_play{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+}
+.center_filter{
+    background: rgba(9, 20, 24, 0.5);
+border-radius: 6px;
+margin-left: 38px;
+display: flex;
+backdrop-filter: blur(66px);
+
+
+}
+
+.main{
+    min-height: 100%;
+    display:flex;
+    flex-direction: column;
+
+}
+.farther{
+    flex: 1 1 auto;
+}
+.card_img{
+    object-fit: cover;
+    padding-left: 10px;
+    object-fit:contain;
+
+
+
+
+}
+.card_img img{
+
+
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card_name{
+
+
+}
+h1{
+    cursor: help;
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px;
+    background: #4A555A;
+
+}
+form{
+    margin: 0 auto;
+
+    width: 450px;
+    height: 10px;
+    padding: 20px;
+}
+.group{
+    margin: 10px;
+    padding: 5px;
+}
+label{
+    padding-left: 10px;
+    text-transform: uppercase;
+
+
+}
+input{
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 6px;
+    padding-left: 15px;
+    font-size: 18;
+}
+.vibop{
+    display: flex;
+}
+.header_logo{
+    padding-right: 300px;
+}
+header{
+    align-items: center;
+    text-align: center;
+}
+.next{
+    text-align: center;
+    align-items: center;
+}
+.reg{
+    align-items:center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.filter_v{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.reg{
+    color:white;
+    background: #4A555A;
+}
+.group{
+    background: #4A555A;
+}
+.center_filter{
+
+
+    padding-top: 30px;
+    color: white;
+}
+.sell_image{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.card_name{
+    position: relative;
+}
+.card_namee{
+    position: absolute;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    border-radius: 0px 0px 8px 8px;
+    backdrop-filter: blur(42px);
+    background: rgba(74, 85, 90, 0.5);
+
+}
+.cew{
+        position: absolute;
+        color: white;
+        position: absolute;
+        bottom: 30px;
+        left: 230px;
+        border-radius: 0px 0px 8px 8px;
+        backdrop-filter: blur(42px);
+        background: rgba(74, 85, 90, 0.5);
+
+
+}
+.glav_content{
+    display: flex;
+    justify-content: space-between;
+justify-content: center;
+
+}
+.filter_glav2{
+    padding-top: 20px;
+
+}
+.filter_v{
+    padding-top: 10px;
+}
+.farther{
+    color: white;
+}
+.filter{
+    backdrop-filter: blur(66px);
+    background: rgba(9, 20, 24, 0.5);
+}
+.center_play{
+    padding-top: 60px;
+}
+.card{
+    padding-left: 60px;
+    padding-bottom:50px;
+}
+.card_name{
+    background: rgba(74, 85, 90, 0.5);
+    backdrop-filter: blur(42px);
+    border-radius: 0px 0px 8px 8px;
+    max-height: 100px;
+}
+.cew{
+    background: #F2DEBA
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.vibop{
+    display:flex;
+}
+select{
+    display:flex;
+
+
+    border-radius: 6px;
+    padding-left: 15px;
+    font-size: 18;
+
+    text-transform: uppercase;
+
+    text-transform: uppercase;
+align-items: center;
+
+    margin: 0 auto;
+    width: 450px;
+    padding:20px;
+
+}
+.vibor_pk{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.go{
+    text-align: center;
+    padding-top: 30px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 8px;
+    max-width: 90px;
+    align-items: center;
+
+}
